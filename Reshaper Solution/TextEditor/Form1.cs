@@ -24,14 +24,17 @@ namespace TextEditor
 
         private void TextBoxEditor_TextChanged(object sender, EventArgs e)
         {
-            Highlighter.Highlight();
+  
+           
+
+           
         }
 
         private void TextBoxEditor_KeyPress(object sender, KeyPressEventArgs e)
         {
             char key = e.KeyChar;
 
-            if (key == '(' || key == '{' || key == '[' || key == '<' || key == '\"' || key == '\'')
+            if (AutoComplete.BracketsList.Exists(b => b == key))    // Auto Complete Brackets
             {
                 int selection = TextBoxEditor.SelectionStart;
                 AutoComplete.AutoCompleteBrackets(selection, key);
@@ -39,10 +42,16 @@ namespace TextEditor
                 TextBoxEditor.SelectionStart = selection + 2;
             }
 
-            if (e.KeyChar == (char)Keys.Enter)
+            if(e.KeyChar == (char)Keys.Space)
+            {
+                Highlighter.Highlight();
+            }
+
+            if (e.KeyChar == (char)Keys.Enter)  //Adding New Lines To List
             {
                 int lineNumber = this.TextBoxEditor.Lines.Length - 1;
                 string linetext = TextBoxEditor.Lines[lineNumber - 1];
+
                 Line line = new Line()
                 {
                     LineNumber = lineNumber,
