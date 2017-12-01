@@ -1,0 +1,5 @@
+C:\Users\Shams Bin Sohrab\Documents\GitHub\Reshaper-Code-Refactoring-Tool\Reshaper Solution\Reshaper\bin\Debug\Reshaper.dll
+C:\Users\Shams Bin Sohrab\Documents\GitHub\Reshaper-Code-Refactoring-Tool\Reshaper Solution\Reshaper\bin\Debug\Reshaper.pdb
+C:\Users\Shams Bin Sohrab\Documents\GitHub\Reshaper-Code-Refactoring-Tool\Reshaper Solution\Reshaper\obj\Debug\Reshaper.csprojResolveAssemblyReference.cache
+C:\Users\Shams Bin Sohrab\Documents\GitHub\Reshaper-Code-Refactoring-Tool\Reshaper Solution\Reshaper\obj\Debug\Reshaper.dll
+C:\Users\Shams Bin Sohrab\Documents\GitHub\Reshaper-Code-Refactoring-Tool\Reshaper Solution\Reshaper\obj\Debug\Reshaper.pdb

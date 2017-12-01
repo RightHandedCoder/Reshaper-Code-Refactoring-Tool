@@ -39,6 +39,8 @@
             this.TextBoxEditor.Size = new System.Drawing.Size(736, 344);
             this.TextBoxEditor.TabIndex = 0;
             this.TextBoxEditor.Text = "";
+            this.TextBoxEditor.TextChanged += new System.EventHandler(this.TextBoxEditor_TextChanged);
+            this.TextBoxEditor.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBoxEditor_KeyPress);
             // 
             // TextBoxError
             // 

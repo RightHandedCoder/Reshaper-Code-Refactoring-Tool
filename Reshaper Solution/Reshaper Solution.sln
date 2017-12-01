@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reshaper", "Reshaper\Reshaper.csproj", "{DF2FBFD9-1AB9-47E2-897B-4D437F333E17}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextEditor", "TextEditor\TextEditor.csproj", "{9174E5DD-259C-4419-8196-5A67E491BD08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reshaper", "Reshaper\Reshaper.csproj", "{FCD33813-581E-448B-832F-71F7BC966A10}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DF2FBFD9-1AB9-47E2-897B-4D437F333E17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DF2FBFD9-1AB9-47E2-897B-4D437F333E17}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DF2FBFD9-1AB9-47E2-897B-4D437F333E17}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DF2FBFD9-1AB9-47E2-897B-4D437F333E17}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9174E5DD-259C-4419-8196-5A67E491BD08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9174E5DD-259C-4419-8196-5A67E491BD08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9174E5DD-259C-4419-8196-5A67E491BD08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9174E5DD-259C-4419-8196-5A67E491BD08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCD33813-581E-448B-832F-71F7BC966A10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCD33813-581E-448B-832F-71F7BC966A10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCD33813-581E-448B-832F-71F7BC966A10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCD33813-581E-448B-832F-71F7BC966A10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
